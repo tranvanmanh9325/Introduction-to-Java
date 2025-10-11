@@ -2,11 +2,11 @@
 
 ## Mục lục
 
-- [Viết chương trình](#Viết-chương-trình)
-- [Biên soạn](#Biên-soạn)
-- [Chạy một chương trình](#Chạy-một-chương-trình)
-- [Ngôn ngữ JVM](Ngôn-ngữ-JVM)
-- [Phần kết luận](Phần-kết-luận)
+- [Viết chương trình](#viết-chương-trình)
+- [Biên soạn](#biên-soạn)
+- [Chạy một chương trình](#chạy-một-chương-trình)
+- [Ngôn ngữ JVM](#ngôn-ngữ-jvm)
+- [Phần kết luận](#phần-kết-luận)
 
 ---
 
