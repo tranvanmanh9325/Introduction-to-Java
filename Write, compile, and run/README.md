@@ -52,6 +52,12 @@ Hình ảnh bên dưới tóm tắt ngắn gọn chu trình làm việc của m�
 
 Nền tảng Java cho phép sử dụng nhiều hơn một ngôn ngữ lập trình để tạo chương trình. Điều này đạt được nhờ thiết kế của JVM: nó không biết gì về bất kỳ ngôn ngữ lập trình cụ thể nào. Nó chỉ hiểu mã bytecode của Java. Nếu các công cụ của một ngôn ngữ lập trình có thể tạo mã bytecode, các chương trình được viết bằng ngôn ngữ đó có thể được thực thi trên JVM. Những ngôn ngữ như vậy thường được gọi là **ngôn ngữ JVM**. Chúng bao gồm Java, Kotlin, Scala, Groovy, Clojure và các ngôn ngữ khác. Vì vậy, để tạo chương trình trong thế giới Java, bạn có thể chọn ngôn ngữ thuận tiện nhất theo ý muốn.
 
+<div style="border: 2px solid #ccc; border-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+😎 <strong>Điều quan trọng cần nhớ là:</strong> mã đầu vào của JVM không phụ thuộc vào nền tảng,
+trong khi mã đầu ra lại phụ thuộc vào nền tảng.
+</div>
+
+
 > 😎 Ngày nay, bạn có thể tìm thấy các công cụ để tạo mã byte Java cho hầu hết mọi ngôn ngữ lập trình, điều này có nghĩa là hầu như không có ngôn ngữ nào không phải là ngôn ngữ JVM.
 
 ![Java Virtual Machine](./public/picture3.svg)
