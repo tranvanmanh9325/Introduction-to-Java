@@ -34,7 +34,7 @@ Trong thế giới Java, trình biên dịch ( javac công cụ dành cho Java h
 
 Một trong những khái niệm chính của Nền tảng Java là "viết một lần, chạy mọi nơi". Điều này có nghĩa là một chương trình có thể chạy trên nhiều thiết bị khác nhau miễn là chúng được cài đặt JVM. Khái niệm này cũng thường được gọi là **tính độc lập nền tảng** hoặc tính di động.
 
-> 😎 Điều quan trọng cần nhớ là: mã đầu vào của JVM không phụ thuộc vào nền tảng, trong khi mã đầu ra lại phụ thuộc vào nền tảng.
+> **😎 Điều quan trọng cần nhớ là: mã đầu vào của JVM không phụ thuộc vào nền tảng, trong khi mã đầu ra lại phụ thuộc vào nền tảng.**
 
 ![Java Virtual Machine](./public/picture1.svg)
 
@@ -52,7 +52,7 @@ Hình ảnh bên dưới tóm tắt ngắn gọn chu trình làm việc của m�
 
 Nền tảng Java cho phép sử dụng nhiều hơn một ngôn ngữ lập trình để tạo chương trình. Điều này đạt được nhờ thiết kế của JVM: nó không biết gì về bất kỳ ngôn ngữ lập trình cụ thể nào. Nó chỉ hiểu mã bytecode của Java. Nếu các công cụ của một ngôn ngữ lập trình có thể tạo mã bytecode, các chương trình được viết bằng ngôn ngữ đó có thể được thực thi trên JVM. Những ngôn ngữ như vậy thường được gọi là **ngôn ngữ JVM**. Chúng bao gồm Java, Kotlin, Scala, Groovy, Clojure và các ngôn ngữ khác. Vì vậy, để tạo chương trình trong thế giới Java, bạn có thể chọn ngôn ngữ thuận tiện nhất theo ý muốn.
 
-> 😎 Ngày nay, bạn có thể tìm thấy các công cụ để tạo mã byte Java cho hầu hết mọi ngôn ngữ lập trình, điều này có nghĩa là hầu như không có ngôn ngữ nào không phải là ngôn ngữ JVM.
+> **😎 Ngày nay, bạn có thể tìm thấy các công cụ để tạo mã byte Java cho hầu hết mọi ngôn ngữ lập trình, điều này có nghĩa là hầu như không có ngôn ngữ nào không phải là ngôn ngữ JVM.**
 
 ![Java Virtual Machine](./public/picture3.svg)
 
