@@ -6,7 +6,7 @@
 - [Biên soạn](#Biên-soạn)
 - [Chạy một chương trình](#Chạy-một-chương-trình)
 - [Ngôn ngữ JVM](Ngôn-ngữ-JVM)
-- [Conclusion](Conclusion)
+- [Phần kết luận](Phần-kết-luận)
 
 ---
 
@@ -28,7 +28,7 @@ Trong thế giới Java, trình biên dịch ( javac công cụ dành cho Java h
 
 ---
 
-## Running a program
+## Chạy một chương trình
 
 Máy ảo Java (Java Virtual Machine) là một ứng dụng đại diện cho một máy tính ảo theo tài liệu đặc tả JVM. Nó thực thi mã bytecode Java đã biên dịch và dịch mã này thành các lệnh cấp thấp mà máy tính có thể hiểu được. Mỗi nền tảng có phiên bản JVM riêng, nhưng vì tất cả các JVM đều tuân thủ cùng một đặc tả, chương trình của bạn sẽ hoạt động giống hệt nhau trên các thiết bị khác nhau.
 
