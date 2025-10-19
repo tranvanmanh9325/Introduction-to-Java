@@ -80,3 +80,144 @@ Viết tắt của hệ thống thực thi chương trình Java là: _________
 
 Ghép các khai niệm sau với mô tả của chúng
 
+**Câu hỏi** Ghép các mục từ cột bên trái và bên phải
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<div style="display: flex; flex-direction: column; gap: 1em; width: 700px;">
+
+  <!-- Row 1 -->
+  <div style="display: flex; gap: 1em;">
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px;">
+      Source code
+    </div>
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.6em;">
+        <i class="fa-solid fa-grip-vertical" style="cursor: grab; color: #666;"></i>
+        <span>usually, developers write this code</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <i class="fa-solid fa-chevron-up" style="cursor: pointer; color: #777;"></i>
+        <i class="fa-solid fa-chevron-down" style="cursor: pointer; color: #777;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div style="display: flex; gap: 1em;">
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px;">
+      Bytecode
+    </div>
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.6em;">
+        <i class="fa-solid fa-grip-vertical" style="cursor: grab; color: #666;"></i>
+        <span>the result of compilation</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <i class="fa-solid fa-chevron-up" style="cursor: pointer; color: #777;"></i>
+        <i class="fa-solid fa-chevron-down" style="cursor: pointer; color: #777;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 3 -->
+  <div style="display: flex; gap: 1em;">
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px;">
+      Native code
+    </div>
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.6em;">
+        <i class="fa-solid fa-grip-vertical" style="cursor: grab; color: #666;"></i>
+        <span>computers understand this code</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <i class="fa-solid fa-chevron-up" style="cursor: pointer; color: #777;"></i>
+        <i class="fa-solid fa-chevron-down" style="cursor: pointer; color: #777;"></i>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+**Đáp án:** 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<div style="display: flex; flex-direction: column; gap: 1em; width: 700px;">
+
+  <!-- Row 1 -->
+  <div style="display: flex; gap: 1em;">
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px;">
+      Source code
+    </div>
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.6em;">
+        <i class="fa-solid fa-grip-vertical" style="cursor: grab; color: #666;"></i>
+        <span>usually, developers write this code</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <i class="fa-solid fa-chevron-up" style="cursor: pointer; color: #777;"></i>
+        <i class="fa-solid fa-chevron-down" style="cursor: pointer; color: #777;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div style="display: flex; gap: 1em;">
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px;">
+      Bytecode
+    </div>
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.6em;">
+        <i class="fa-solid fa-grip-vertical" style="cursor: grab; color: #666;"></i>
+        <span>the result of compilation</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <i class="fa-solid fa-chevron-up" style="cursor: pointer; color: #777;"></i>
+        <i class="fa-solid fa-chevron-down" style="cursor: pointer; color: #777;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 3 -->
+  <div style="display: flex; gap: 1em;">
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px;">
+      Native code
+    </div>
+    <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.6em;">
+        <i class="fa-solid fa-grip-vertical" style="cursor: grab; color: #666;"></i>
+        <span>computers understand this code</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <i class="fa-solid fa-chevron-up" style="cursor: pointer; color: #777;"></i>
+        <i class="fa-solid fa-chevron-down" style="cursor: pointer; color: #777;"></i>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+## Ngôn ngữ JVM
+
+Ngôn ngữ lập trình nào sau đây có thể chạy trên JVM?
+
+**Câu hỏi:** Chọn một hoặc nhiều tùy chọn từ danh sách
+
+- Groovy
+
+- Scala
+
+- Kotlin
+
+- Java
+
+**Đáp án:**
+
+- Groovy
+
+- Scala
+
+- Kotlin
+
+- Java
