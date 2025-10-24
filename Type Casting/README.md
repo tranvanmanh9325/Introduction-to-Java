@@ -10,7 +10,7 @@ Truy cập các tài nguyên sau để tìm hiểu thêm:
     Bài Báo
   </div>
   <div style="font-size:14px;">
-    <a href="#" style="text-decoration:none;color:#000;"
+    <a href="./Bai1/README.MD" style="text-decoration:none;color:#000;"
        onmouseover="this.style.textDecoration='underline'"
        onmouseout="this.style.textDecoration='none'">
        Ép kiểu trong Java: Mọi thứ bạn cần biết
